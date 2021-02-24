@@ -90,12 +90,12 @@ public class BankApplication {
 	}
 	private static void accountList() {
 		System.out.println("------");
-		System.out.println("°èÁÂ»ı¼º");
+		System.out.println("°èÁÂ³»¿ª");
 		System.out.println("------");
 
 		for(int i = 0; i < accountArray.length; i++) {
-			Account account =accountArray[i];
-			if(accountArray[i] !=null) {
+			Account account = accountArray[i];
+			if(accountArray[i] != null) {
 				System.out.print(account.getAno()+" \t ");
 				System.out.print(account.getOwner()+" \t ");
 				System.out.print(account.getBalance()+" \t ");
