@@ -4,7 +4,7 @@ public class HomeActivity extends Activity {
 	//필드
 	//생성자
 	public HomeActivity(){
-		super();
+		
 	}
 	//메소드
 	@Override

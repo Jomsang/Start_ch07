@@ -10,10 +10,14 @@ public class Example {
 		animal1.eat();
 		animal1.sleep();
 		animal1.sound();
+		Dog dog = (Dog)animal1;
+		dog.keepHome();
 		
 		animal2.eat();
 		animal2.sleep();
 		animal2.sound();
+		Cat cat = (Cat)animal2;
+		cat.scratch();
 		
 	}
 

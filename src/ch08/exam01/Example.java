@@ -10,6 +10,10 @@ public class Example {
 		rc.turnOn();
 		rc.turnOff();
 		rc.setVolume(5);
+		
+		rc1.turnOn();
+		rc1.turnOff();
+		rc1.setVolume(5);
 	}
 
 }

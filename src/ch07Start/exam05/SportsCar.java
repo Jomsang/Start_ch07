@@ -9,7 +9,7 @@ public class SportsCar extends Car {
 	
 	@Override
 	public void run() {
-		// TODO Auto-generated method stub
+		//super.run();
 		System.out.println("빨리 달립니다.");
 	}
 }

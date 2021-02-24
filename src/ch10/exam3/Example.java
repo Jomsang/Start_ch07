@@ -27,7 +27,7 @@ public class Example {
 			}catch(ArrayIndexOutOfBoundsException e) {
 				System.out.println("0 ~ "+(arr.length - 1) + "까지 가능합니다.");
 			}catch(Exception e) {
-				System.out.println("숫자를 입력햇습니다.");
+				System.out.println("숫자를 입력하세요.");
 			}
 			finally {
 				System.out.println("다시 입력하세요.");

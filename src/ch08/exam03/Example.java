@@ -19,6 +19,9 @@ public class Example {
 		
 		use1(mycar1);
 		// use2(mycar1);  //mycar1의 데이터 타입이 Shipable이기 때문에 use2(Flyable flyable) 은 사용 불가
+		
+		//use1(mycar2);	//mycar2의 데이터 타입이 Flyable이기 때문에 use1(Shipable shipable) 은 사용 불가
+		use2(mycar2);
 	}
 
 }
