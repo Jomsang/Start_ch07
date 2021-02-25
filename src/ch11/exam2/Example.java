@@ -22,6 +22,7 @@ public class Example {
 		
 		
 		String result = var4 + " => spring: 봄들이";
+		System.out.println(result);
 		// var4.tostring이 생략되어있음, 그래서  "=> spring:" 봄들이 와 문자열 결합이 가능
 		
 		
