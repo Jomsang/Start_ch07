@@ -22,7 +22,7 @@ public class Audio implements RemoteControl {
 		if(volume > RemoteControl.MAX_VOLUME) { //상수는 구현 객체에서 값을 제한하거나, 참조해서 사용하게 할 때 지정.
 			this.volume =  RemoteControl.MAX_VOLUME;
 		}
-		System.out.println("Audio 볼륨을 "+volume+" 로 조정합니다.");
+		System.out.println("Audio 볼륨을 "+this.volume+" 로 조정합니다.");
 		
 	}
 	

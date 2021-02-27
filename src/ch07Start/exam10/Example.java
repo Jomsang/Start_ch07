@@ -3,12 +3,25 @@ package ch07Start.exam10;
 public class Example {
 
 	public static void main(String[] args) {
+		
+		Parent parent = new Parent();
+		if(parent instanceof Child) { //부모 -> 자식 강제 형변환 때 이렇게 선언
+			Child child = (Child)parent;
+			child.field2 = 10; 
+			parent.method2();
+			child.method2();
+		}else {
+			parent.method2();
+		}
+		//---------------------------------위에 else로 넘어감
+		Parent parent2 = new Child();
+		parent2.method2();
+		Child child2 = (Child)parent2;
+		child2.method1(); //강제형변환에 성공해서 Child객체의 method1 사용 가능
+	
+		
+		
 		/*
-		Parent parent = new Child();
-		
-		
-		
-		
 		Child child = (child) parent;
 		child.field1 = 5;
 		child.method1();

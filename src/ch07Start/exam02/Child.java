@@ -12,4 +12,9 @@ public class Child extends Parent{ 	//객체가 만들어질때는 필드와 메소드만 존재
 	public void method2() {
 		System.out.println("method2 실행");
 	}
+	@Override
+		public void method1() {
+			
+			System.out.println("Parent객체의 method1을 Overriding 함");
+		}
 }

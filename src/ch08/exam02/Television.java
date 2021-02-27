@@ -17,6 +17,6 @@ public class Television implements RemoteControl {
 			this.volume =  RemoteControl.MAX_VOLUME;
 		}
 		
-		System.out.println("TV 볼륨을 "+volume+" 로 조정합니다.");
+		System.out.println("TV 볼륨을 "+this.volume+" 로 조정합니다.");
 	}
 }

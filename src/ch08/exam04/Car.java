@@ -3,7 +3,7 @@ package ch08.exam04;
 public class Car {
 	//필드
 	//public Tire t1 = new Tire(); Tire는 인터페이스, 클래스가 아님. 
-	public Tire t1;
+	public Tire t1 = new KumhoTire();
 	public Tire t2;
 	public Tire t3;
 	public Tire t4;
