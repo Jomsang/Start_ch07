@@ -50,6 +50,7 @@ public class Example {
 		int iin1 = list1.get(0);
 		int iin2 = list1.get(1);
 		int iin3 = list1.get(2);
+		System.out.println(list1.get(0));
 		//----------------------------이렇게 사용
 		
 		//----------------------------- List 인터페이스를 구현하는 ArrayList,Vector,LinkedList는 사용 방법이 달라진다,

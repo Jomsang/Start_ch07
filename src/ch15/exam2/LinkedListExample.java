@@ -5,7 +5,7 @@ public class LinkedListExample {
 	public static void main(String[] args) {
 		
 		List<String> list = new ArrayList<>();
-		List<String> list1 = new ArrayList<>();
+		List<String> list1 = new LinkedList<>();
 		
 		long startTime;
 		long endTime;

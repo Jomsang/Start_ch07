@@ -17,8 +17,9 @@ public class Example2 {
 		int hour= now.get(Calendar.HOUR_OF_DAY);
 		int minute = now.get(Calendar.MINUTE);
 		int second = now.get(Calendar.SECOND);
-		
+		int ss = Calendar.HOUR_OF_DAY;
 		// 날짜를 전달할때 Date();, 구체적인 날짜를 구할 때 Calendar
+		System.out.println(amPm);
 
 	}
 

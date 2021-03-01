@@ -50,10 +50,10 @@ public class String02 {
 		//포함 여부 : 방법 2 //좀 중요하니 알아 둠
 		int index = title.indexOf("자바");//이 문자열이 시작하는 index번호를 return 해줌.(4가 나옴.)
 		if(index != -1) {	//indexOf(String st)는 없는 문자열을 줄 시에는 -1을 리턴해줌 이 if에서는 있는 문자열일 경우 참
-
+			System.out.println(index);
 		}
 		else {
-
+			System.out.println(index);
 		}
 		
 		//문자열의 길이
